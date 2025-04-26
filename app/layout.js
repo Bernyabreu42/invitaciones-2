@@ -8,7 +8,7 @@ export const metadata = {
     title: "Boda de Felix & Mirianny",
     description:
       "¡Nos casamos! Y es imprescindible que formes parte del enlace que estamos organizando.",
-    image: "/opengraph_image.webp",
+    image: "/foto2.webp",
   },
 };
 
