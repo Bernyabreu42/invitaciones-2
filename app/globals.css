@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mask_image{
+  mask-image: linear-gradient(
+    black 30%,
+    transparent
+  );
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.text_image{
+  background-image: url(/foto_2.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.snap-container {
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.snap-container::-webkit-scrollbar{
+  display: none;
+}
+
+.snap-section {
+  scroll-snap-align: start;
+  min-height: 100vh;
+}
+
+.animated-button-play{
+  animation-name: animated-play;
+  animation-duration: 4s;
+}
+
+@keyframes animated-play{
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
