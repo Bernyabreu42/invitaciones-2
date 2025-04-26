@@ -5,7 +5,7 @@ import { cookie, greatVibes } from "../Font";
 export default function Hero() {
   return (
     <div className="bg-[#fe87a1] relative snap-section">
-      <div className="bg-[url(/foto_2.webp)] bg-no-repeat bg-contain bg-center relative h-screen flex justify-center mask_image"></div>
+      <div className="bg-[url(/foto_2.webp)] bg-no-repeat bg-cover bg-top relative h-screen flex justify-center mask_image"></div>
       <div className="absolute bottom-14 md:bottom-0 z-50 w-full text-center p-5 pb-10">
         <div className={` relative flex flex-col items-center  w-max m-auto `}>
           <span className="font-serif text-[230px] absolute -bottom-[80px] text-white/30 h-max">
