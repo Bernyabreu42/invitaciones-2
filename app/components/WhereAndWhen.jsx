@@ -20,7 +20,7 @@ export default function WhereAndWhen() {
           Inicio
         </h3>
         <p className={`${cookie.className} block text-center text-4xl`}>
-          31 De Mayo de 2025
+          25 De Octubre de 2025
         </p>
         <p className={`${contrailOne.className} block text-center text-5xl`}>
           6:00 P.M
