@@ -11,7 +11,7 @@ export default function SectionCouple() {
           <span className={`${cookie.className} text-5xl text-primary z-10`}>
             Faltan
           </span>
-          <Countdown targetDate="2025-05-31T18:00:00" />
+          <Countdown targetDate="2025-10-25T18:00:00" />
           <span className={`${cookie.className} text-5xl text-primary z-10`}>
             Para nuestra boda
           </span>

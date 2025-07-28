@@ -27,7 +27,7 @@ export default function WhereAndWhen() {
         </p>
 
         <a
-          href="https://maps.app.goo.gl/rYV3YLUcCqDwqcfV9"
+          href="https://maps.app.goo.gl/Nffjdz1mqd6HTkDV8"
           target="_blank"
           className="border rounded-lg p-2 px-5 flex gap-2 items-center shadow border-primary text-primary"
         >

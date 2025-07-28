@@ -2,18 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.mask_image{
-  mask-image: linear-gradient(
-    black 30%,
-    transparent
-  );
+.mask_image {
+  mask-image: linear-gradient(black 30%, transparent);
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 
-.text_image{
+.text_image {
   background-image: url(/foto_2.jpg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -25,7 +22,7 @@ body::-webkit-scrollbar{
   scroll-snap-type: y mandatory;
 }
 
-.snap-container::-webkit-scrollbar{
+.snap-container::-webkit-scrollbar {
   display: none;
 }
 
@@ -34,12 +31,16 @@ body::-webkit-scrollbar{
   min-height: 100vh;
 }
 
-.animated-button-play{
+.animated-button-play {
   animation-name: animated-play;
   animation-duration: 4s;
 }
 
-@keyframes animated-play{
-  from {background-color: red;}
-  to {background-color: yellow;}
+@keyframes animated-play {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
 }

@@ -25,7 +25,7 @@ export default function Gallery() {
             key={img}
             src={img}
             alt="gallery images boda"
-            className={`w-full md:h-80 aspect-square md:aspect-video object-cover rounded-lg shadow-md ${
+            className={`w-full md:h-80 aspect-square md:aspect-video object-fill aspect-auto rounded-lg shadow-md  ${
               index === 4 && "col-span-2"
             } ${index === 3 && "h-full"}`}
           />
